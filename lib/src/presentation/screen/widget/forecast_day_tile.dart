@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/data/entity/forecast/forecastday.dart';
+import 'package:weather_app/src/data/entity/forecast/forecastday.dart';
 
 class ForecastDayTile extends StatelessWidget {
   final ForecastDay? forecastDay;

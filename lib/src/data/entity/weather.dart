@@ -1,15 +1,15 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:weather_app/data/entity/current/current.dart';
-import 'package:weather_app/data/entity/forecast/forecast.dart';
-import 'package:weather_app/data/entity/location/location.dart';
+import 'package:weather_app/src/data/entity/current/current.dart';
+import 'package:weather_app/src/data/entity/forecast/forecast.dart';
+import 'package:weather_app/src/data/entity/location/location.dart';
 
 part 'weather.g.dart';
 
 @JsonSerializable()
 class Weather {
-  final Location? location;
-  final Current? current;
-  final Forecast? forecast;
+  final Location location;
+  final Current current;
+  final Forecast forecast;
 
   const Weather({
     required this.location,

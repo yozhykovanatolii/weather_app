@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:weather_app/data/entity/forecast/day.dart';
+import 'package:weather_app/src/data/entity/forecast/day.dart';
 
 part 'forecastday.g.dart';
 
