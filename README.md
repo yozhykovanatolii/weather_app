@@ -1,16 +1,38 @@
-# weather_app
+# Flutter Weather App
 
-A new Flutter project.
+This app displays current weather and 3-day forecast for a city, and checks for internet connection.
 
-## Getting Started
+## Technologies
 
-This project is a starting point for a Flutter application.
+### Core Technologies
 
-A few resources to get you started if this is your first Flutter project:
+- [![Dart][dart-shield]][dart-url]
+- [![Flutter][flutter-shield]][flutter-url]
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How to set up a project
+### Steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. You must create an account on the website https://www.weatherapi.com/.
+2. You need to click the radio button "I agree to above and would like to regenerate api key." and the button "Regenerate Key".
+3. Make sure you have Flutter installed.
+4. Clone this repository:
+
+   ```
+   git clone https://github.com/yozhykovanatolii/NoteApp.git
+   ```
+5. Navigate to the project directory:
+
+   ```
+   cd weather_app
+   ```
+6. Paste your API key in the file constant.dart.
+7. Run the app:
+
+   ```
+   flutter run
+   ```
+[dart-shield]: https://img.shields.io/static/v1?message=v3.6.0&color=orange&label=Dart
+[dart-url]: https://dart.dev/
+
+[flutter-shield]: https://img.shields.io/static/v1?message=v3.27.1&color=yellow&label=Flutter
+[flutter-url]: https://docs.flutter.dev/
